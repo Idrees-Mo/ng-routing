@@ -15,4 +15,9 @@ export class HomeComponent implements OnInit {
     // some calculations
     this.router.navigate(["servers"]);
   }
+
+  onEditServer(id) {
+    // some calculations
+    this.router.navigate(["servers", id, "edit"]);
+  }
 }
