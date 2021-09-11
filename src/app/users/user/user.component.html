@@ -1,2 +1,4 @@
-<p>User with ID _ID_ loaded.</p>
-<p>User name is _NAME_</p>
+<p>UserID : {{ this.user.id }}</p>
+<p>User name : {{ this.user.name }}</p>
+
+<a [routerLink]="['/users', 20, 'Mu']">Load Mu</a>
